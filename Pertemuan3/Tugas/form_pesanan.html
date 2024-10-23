@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Putra Minang</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+<p>.</p>
+
+    <body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <table border="1" align="center" style="width: 65%; border-collapse: collapse; height: 20%;">
+            <tr>
+                <th><a href="" target="_blank" style="color: black;">Home</a></th>
+                <th><a href="" target="_blank" style="color: black;">Generate Link</a></th>
+                <th><a href="" target="_blank" style="color: black;">Transaction History</a></th>
+                <th><a href="" target="_blank" style="color: black;">Policy</a></th>
+                <th><a href="" target="_blank" style="color: black;">About</a></th>
+            </tr>
+        </table><br><br><br>
+
+        <div>
+            <img src="img/logo.png" alt="logo" width="250" style="float: left;">
+            <input type="file" multiple>
+        </div>  
+
+        <tbody>
+            <form action="nerima_pesanan.html">
+            <table style="margin-left: 350px;">
+                <tr>
+                    <td><label for="nama">Product Name : </label></td>
+                    <td><input type="text" id="nama" name="nama" required></td>
+                </tr>
+                <tr>
+                    <td><label for="description">Description :</label></br>
+                    <td><textarea maxlength="400" name="description" cols="70" rows="5" required></textarea></br>
+                </tr>
+                <tr>
+                    <td><label for="number">Account Number :</label></td>
+                    <td><input type="number" id="number" name="number" required></td>
+                </tr>
+                <tr>
+                    <td><label for="bank">Bank :</label></td>
+                    <td><input type="text" list="banklevel" name="banklevel" required></td>
+                    <datalist id="banklevel">
+                        <option value="BCA">
+                        <option value="BRI">
+                        <option value="Mandiri">
+                    </datalist>
+                </tr>
+                <tr>
+                    <td><label for="nama">Account Holder :</label></td>
+                    <td><input type="text" id="nama" name="nama" required></td>
+                </tr>
+                <tr>
+                    <td><label for="number">Transaction :</label></td>
+                    <td><input type="number" id="number" name="number" max="5" min="1" required></td>
+                </tr>
+            </table>
+            <table style="margin-left: 480px;">
+                <tr>
+                    <td>
+                        <p>
+                            <b>*if the transaction is for 3 person, choose 3 from the drop-down list</b>
+                        </p>
+                    </td>
+                </tr>
+                <tr style="color: blue;">
+                    <td>
+                        <input type="checkbox" id="tlp" name="tlp" value="mobilephone">
+                        <label for="tlp">Send to Mobile Phone</label>
+                    </td>
+                </tr>
+                <tr style="color: blue;">
+                    <td>
+                        <input type="checkbox" id="mail" name="mail" value="mail">
+                        <label for="mail">Send to Email</label>
+                    </td>
+                </tr>
+            </table>
+            <table style="margin-left: 316px;">
+                <tr>
+                    <td><label for="number">Send to Mobile Phone :</label></td>
+                    <td><input type="number" id="number" name="number" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Send to Mail :</label></td>
+                    <td><input type="email" id="email" name="email" required></td><br>
+                </tr>
+            </table><br>
+            
+        </tbody>
+        <input style="margin-left: 484px; background-color: green; color: white;" type="submit" value="Generate Link Here" type="button">
+    </body>
+</html>

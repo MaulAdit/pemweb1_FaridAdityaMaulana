@@ -1,0 +1,28 @@
+body {
+    margin-left: 50px;
+}
+
+/* Styling box*/
+.box{
+    width: 250px;   /*Lebar setiap box*/
+    height: 600px;  /*Tinggi setiap box*/
+    border: 1px solid black;
+    float: left;
+    margin: 20px;   /*Memberi jarak anatara box */
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.blue {
+    background-color: blue;
+}

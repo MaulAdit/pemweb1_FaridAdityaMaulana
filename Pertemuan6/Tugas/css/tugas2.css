@@ -1,6 +1,6 @@
 body {
     display: flex;
-    justify-content: center;
+    justify-content: auto;
     font-family: Arial, sans-serif;
     margin: 0;
 }
@@ -23,15 +23,16 @@ body {
 .box1 {
     grid-area: box1;
     background-color: yellow;
-    height: 300px;
+    height: 95px;
     width: 95%;
     border: 1px solid black;
+    margin-right: 10px;
 }
 
 .box2 {
     grid-area: box2;
     background-color: orange;
-    height: 300px;
+    height: 95px;
     width: 110%;
     border: 1px solid black;
 }
@@ -39,36 +40,38 @@ body {
 .box3 {
     grid-area: box3;
     background-color: lightgreen;
-    height: 1300px;
+    height: 405px;
     width: 95%;
     border: 1px solid black;
-    margin-top: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .box4 {
     grid-area: box4;
     background-color: lightgray;
-    height: 1300px;
-    width: 125%;
-    margin-top: 25px;
+    height: 405px;
+    width: 113%;
+    margin-top: 10px;
     border: 1px solid black;
+    margin-right: 500px;
 }
 
 .box5 {
     grid-area: box5;
     background-color: skyblue;
-    height: 1300px;
+    height: 405px;
     width: 95%;
     border: 1px solid black;
-    margin-top: 25px;
-    margin-left: 300px;
+    margin-top: 10px;
+    margin-left:54%;
 }
 
 .box6 {
     grid-area: box6;
     background-color: blue;
-    height: 300px;
-    width: 357%;
-    margin-top: 25px;
+    height: 95px;
+    width: 605%;
+    margin-top: 10px;
     border: 1px solid black;
 }

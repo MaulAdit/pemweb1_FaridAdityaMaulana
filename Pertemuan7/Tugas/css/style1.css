@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(255, 150, 167);
+}
+
+header,footer {
+    width: 1305px;
+    height: 80px;
+    background-color: aquamarine;
+    margin: 15px 15px 15px 15px;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+
+.main {
+    display: flex;
+    margin: 0;
+    width: 1300;
+}
+
+aside {
+    margin: 0 15px 0 15px;
+    height: 460px;
+    width: 500px;
+    background-color: aqua;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+article {
+    background-color: brown;
+    height: 460px;
+    width: 800px;
+    margin: 0 15px 0 15px;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
